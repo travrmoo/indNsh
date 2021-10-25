@@ -16,6 +16,8 @@
 		6771DE102727528F00790519 /* indNshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771DE0F2727528F00790519 /* indNshTests.swift */; };
 		6771DE1A2727528F00790519 /* indNshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771DE192727528F00790519 /* indNshUITests.swift */; };
 		6771DE1C2727528F00790519 /* indNshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771DE1B2727528F00790519 /* indNshUITestsLaunchTests.swift */; };
+		6771DE29272752F700790519 /* ticketMasterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771DE28272752F700790519 /* ticketMasterAPI.swift */; };
+		6771DE2B2727532E00790519 /* eventBriteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771DE2A2727532E00790519 /* eventBriteAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		6771DE152727528F00790519 /* indNshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = indNshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6771DE192727528F00790519 /* indNshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indNshUITests.swift; sourceTree = "<group>"; };
 		6771DE1B2727528F00790519 /* indNshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indNshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6771DE28272752F700790519 /* ticketMasterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketMasterAPI.swift; sourceTree = "<group>"; };
+		6771DE2A2727532E00790519 /* eventBriteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventBriteAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		6771DDF82727528E00790519 /* indNsh */ = {
 			isa = PBXGroup;
 			children = (
+				6771DE28272752F700790519 /* ticketMasterAPI.swift */,
+				6771DE2A2727532E00790519 /* eventBriteAPI.swift */,
 				6771DDF92727528F00790519 /* indNshApp.swift */,
 				6771DDFB2727528F00790519 /* ContentView.swift */,
 				6771DDFD2727528F00790519 /* Assets.xcassets */,
@@ -265,7 +271,9 @@
 			files = (
 				6771DE032727528F00790519 /* Persistence.swift in Sources */,
 				6771DDFC2727528F00790519 /* ContentView.swift in Sources */,
+				6771DE2B2727532E00790519 /* eventBriteAPI.swift in Sources */,
 				6771DDFA2727528F00790519 /* indNshApp.swift in Sources */,
+				6771DE29272752F700790519 /* ticketMasterAPI.swift in Sources */,
 				6771DE062727528F00790519 /* indNsh.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
